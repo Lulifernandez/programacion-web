@@ -1,3 +1,5 @@
+/* ---------------------------------- PRIMERA SECCIÓN ------------------------------------- */
+
 .first-page {
     background-color: white;
     height: 100%;
@@ -26,6 +28,7 @@
 }
 .btn:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #FCD9AF;
 }
 .nav-item{
     padding: 20px 30px;
@@ -67,9 +70,10 @@
     background-color: #F5F5F5;
     color: gray;
     text-align: center;
-    padding:  15px;
+    padding:  3%;
     border-radius: 20px;
     margin-bottom: 8%;
+    width: 49%;
 }
 
 #input-button2{
@@ -81,6 +85,164 @@
     font-weight: bold;   
 }
 
-.second-page{
+
+/* ---------------------------------- SEGUNDA SECCIÓN ------------------------------------- */
+/* .second-page{
     
+} */
+
+.header-2{
+    width: 80%;
+}
+
+#see-all-btn{
+    background-color: #FCD9AF;
+    color:#45484E;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    padding: 15px 40px;
+    border-radius: 1vw;
+    width: 60%;
+}
+
+#see-all-btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #FCD9AF;
+}
+
+/* SAMPLE CARDS */
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(400px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+}
+
+.card{
+    background-color: #45484E;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.19);
+}
+
+.card-container{
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+
+.card-container img{
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+    margin-top: 10px;
+}
+.card-container:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+}
+
+.card-1 .card-container:after{
+    background-image: linear-gradient(
+        135deg,
+        #0100ec,
+        #FCD9AF,
+    );
+}
+
+.card-2 .card-container:after{
+    background-image: linear-gradient(
+        135deg,
+        #0100ec,
+        #FCD9AF,
+    );
+}
+
+.card-3 .card-container:after{
+    background-image: linear-gradient(
+        135deg,
+        #0100ec,
+        #FCD9AF,
+    );
+}
+
+.card-content {
+    padding: 20px 10px;
+}
+
+.card-content h4{
+    color: #EBEBEB;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+}
+
+.card-content p{
+    color: #c9c9c9;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/* Gallery */
+
+.part-2 {
+    width: 100%;
+    margin: 10% 0%;
+}
+
+.photo{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#gallery-text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+#gallery-text p{
+    color: #949393;
+}
+
+#gallery-text h2{
+    font-weight: 1000;
+}
+
+
+/* ---------------------------------- QUINTA SECCIÓN ------------------------------------- */
+.fifth-page{
+    background-color: #45484E;
+    width: 100%;
+    color: #F5F5F5;
+}
+
+.contact-text{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: space-around;
+    margin: 10%;
+    padding: 5%;
+    font-family: "Poppins", sans-serif;
+}
+.contact-text h1{
+    font-weight: 1000;
+    font-size:  400%;
+}
+
+.contact-text p{
+    width: 80%;
 }
