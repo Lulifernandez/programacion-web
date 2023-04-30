@@ -74,6 +74,7 @@
     border-radius: 20px;
     margin-bottom: 8%;
     width: 49%;
+    border-color: transparent;
 }
 
 #input-button2{
@@ -83,6 +84,7 @@
     border-radius: 20px;
     width: 100%;
     font-weight: bold;   
+    border-color: transparent;
 }
 
 
@@ -226,7 +228,6 @@
 .fifth-page{
     background-color: #45484E;
     width: 100%;
-    color: #F5F5F5;
 }
 
 .contact-text{
@@ -241,8 +242,55 @@
 .contact-text h1{
     font-weight: 1000;
     font-size:  400%;
+    color: #F5F5F5
 }
 
 .contact-text p{
     width: 80%;
+    color: #949393;
+}
+
+.contact-form {
+    display: flex;
+    height: 100%;
+    flex-flow: column ;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight:bolder;
+    font-size: 100%;
+    padding: 5%;
+    margin: 10% 0;
+}
+
+.contact-form h4{
+    font-size: 150%;
+    color: #F5F5F5;
+    font-weight: 1000;
+}
+
+.contact-form button {
+    padding: 5%;
+    align-self: flex-end;
+    background-color: transparent;
+    border-color: transparent;
+    color: #f0ebeb;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.cnt-form{
+    display: flex;
+    flex-flow: column;
+    align-self: flex-start;
+    
+}
+.cnt-form input{
+    /* agregar @media para el width si la pantalla es de celular */
+    width: 25vw; 
+    padding: 5%;
+    margin: 3% 0;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom-color: #f0ebeb;
+    color: #f0ebeb;
 }
