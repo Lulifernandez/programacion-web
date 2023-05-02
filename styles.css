@@ -1,9 +1,43 @@
+/* ADAPTACIÓN A CELULAR */
+
+
+@media screen and (max-width: 600px) {
+    #first-title{
+        font-size: 15vw;
+    }
+
+    .nav-item a {
+        font-size: small;
+    }
+
+    #light-section {
+        height: 0;
+        width: 0;
+    }
+    
+    .btn {
+        display: none;
+    }
+
+    .cnt-form{
+       display: flex;
+       flex-direction: column;
+       align-self: center;
+    }
+}
+
+
+
+
 /* ---------------------------------- PRIMERA SECCIÓN ------------------------------------- */
+body{
+    width: 100vw;
+}
 
 .first-page {
-    background-color: white;
+    background-color: #45484E;
     height: 100%;
-    border: #45484E;
+    /* border: #45484E; */
 }
 
 #dark-section{
@@ -89,9 +123,9 @@
 
 
 /* ---------------------------------- SEGUNDA SECCIÓN ------------------------------------- */
-/* .second-page{
+.second-page{
     
-} */
+}
 
 .header-2{
     width: 80%;
@@ -286,7 +320,8 @@
 }
 .cnt-form input{
     /* agregar @media para el width si la pantalla es de celular */
-    width: 25vw; 
+    width: 150%; 
+    overflow: hidden;
     padding: 5%;
     margin: 3% 0;
     background-color: transparent;
@@ -294,3 +329,4 @@
     border-bottom-color: #f0ebeb;
     color: #f0ebeb;
 }
+
