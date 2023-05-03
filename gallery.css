@@ -6,20 +6,40 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    background-color: #c9c9c9;
 }
+
+.navbar {
+    background-color: #45484E;
+    align-self: center;
+}
+.nav-item{
+    padding: 20px 30px;
+}
+
+.nav-link{
+    color: #EBEBEB;
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    font-weight: 500;
+
+}
+
 
 h1 {
     font-weight: 400;
     text-align: center;
     padding: 20px 0;
-    font-size: 40px;
+    font-size: 4vw;
 }
 
 .linea {
-    background-color: #550b51;
+    background-color: black;
     height: 5px;
-    width: 100%;
-    display: block;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .galeria{

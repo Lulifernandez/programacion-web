@@ -1,13 +1,9 @@
 /* ADAPTACIÓN A CELULAR */
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
     #first-title{
         font-size: 15vw;
-    }
-
-    .nav-item a {
-        font-size: small;
     }
 
     #light-section {
@@ -22,7 +18,7 @@
     .cnt-form{
        display: flex;
        flex-direction: column;
-       align-self: center;
+       align-self: auto;
     }
 }
 
@@ -37,7 +33,6 @@ body{
 .first-page {
     background-color: #45484E;
     height: 100%;
-    /* border: #45484E; */
 }
 
 #dark-section{
@@ -123,9 +118,6 @@ body{
 
 
 /* ---------------------------------- SEGUNDA SECCIÓN ------------------------------------- */
-.second-page{
-    
-}
 
 .header-2{
     width: 80%;
@@ -152,7 +144,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit,
     minmax(400px,1fr));
-    padding: 20px;
+    padding:3%;
     grid-gap: 40px;
 }
 
@@ -172,7 +164,6 @@ body{
     width: 100%;
     display: block;
     border-radius: 20px 20px 0 0;
-    margin-top: 10px;
 }
 .card-container:after{
     content: "";
@@ -185,7 +176,7 @@ body{
     opacity: 0.7;
 }
 
-.card-1 .card-container:after{
+/* .card-1 .card-container:after{
     background-image: linear-gradient(
         135deg,
         #0100ec,
@@ -207,10 +198,10 @@ body{
         #0100ec,
         #FCD9AF,
     );
-}
+} */
 
 .card-content {
-    padding: 20px 10px;
+    padding: 5% 2.5%;
 }
 
 .card-content h4{
@@ -246,7 +237,6 @@ body{
     align-items: center;
     padding: 5%;
     font-family: "Poppins", sans-serif;
-    
 }
 
 #gallery-text p{
@@ -257,6 +247,10 @@ body{
     font-weight: 1000;
 }
 
+#gallery-text a{
+    color: black;
+    text-decoration: none;
+}
 
 /* ---------------------------------- QUINTA SECCIÓN ------------------------------------- */
 .fifth-page{
@@ -320,7 +314,7 @@ body{
 }
 .cnt-form input{
     /* agregar @media para el width si la pantalla es de celular */
-    width: 150%; 
+    width: 100%; 
     overflow: hidden;
     padding: 5%;
     margin: 3% 0;
