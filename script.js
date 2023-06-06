@@ -3,5 +3,5 @@ function mostrarMensaje() {
     
 }
 
-getElementById("btn-js").onclick(document.write("Hello"))
+
 
