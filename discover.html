@@ -71,7 +71,7 @@
                     <img src="Images\Backgrounds\Voluntariado1.jpeg" alt="Brohm Lake">
                   </figure>
 
-                  <button type="button" href="#social" >Choose</button>
+                  <button type="button" onclick="location.href='discover.html#social'" >Choose</button>
 
                   <div class="design-container">
                     <span class="design design--1"></span>
@@ -117,7 +117,7 @@
                       <img src="Images\Backgrounds\voluntariado4.avif" alt="Brohm Lake">
                     </figure>
   
-                    <button type="button" href="#social" >Choose</button>
+                    <button type="button" onclick="location.href='discover.html#environmental'" >Choose</button>
   
                     <div class="design-container">
                       <span class="design design--1"></span>
@@ -147,7 +147,7 @@
         <h3>Search Country</h3>
           <div id="search-button">
             <form action="">
-              <input type="search" class="input-button" placeholder="Country" id="searchInput">
+              <input type="search" autocomplete="off" class="input-button" placeholder="Country" id="searchInput">
             </form>
           </div>
 
@@ -159,12 +159,15 @@
           <!-- 1st Card -->
           <div class="card card-1">
               <div class="card-container">
-              <img src="/Images/Cards/asia.jpg" alt="">
+                <img src="/Images/Cards/asia.jpg" alt="">
               </div>
 
               <div class="card-content">
-              <h4 class="card-title">Japan</h4>
-              <p>Volunteer in Japan and help support disaster relief efforts in communities affected by natural disasters. Japan is prone to earthquakes, typhoons, and other natural disasters, and there is a constant need for volunteers to assist with recovery and rebuilding efforts. As a volunteer, you may be involved in tasks such as clearing debris, distributing supplies, or assisting with community outreach programs. By working alongside locals, you'll gain a deeper understanding of the culture and build meaningful connections. Your contributions will make a tangible difference in the lives of those affected by natural disasters and help support the long-term sustainability of the community.  </p>
+                <h4 class="card-title">Japan</h4>
+                <button class="toggle-button">More Info</button>
+                <div class="more-info">
+                  <p>Volunteer in Japan and help support disaster relief efforts in communities affected by natural disasters. Japan is prone to earthquakes, typhoons, and other natural disasters, and there is a constant need for volunteers to assist with recovery and rebuilding efforts. As a volunteer, you may be involved in tasks such as clearing debris, distributing supplies, or assisting with community outreach programs. By working alongside locals, you'll gain a deeper understanding of the culture and build meaningful connections. Your contributions will make a tangible difference in the lives of those affected by natural disasters and help support the long-term sustainability of the community.</p>
+                </div>
               </div>
           </div>
 
@@ -176,8 +179,11 @@
 
               <div class="card-content">
                 <h4 class="card-title">Kenya</h4>
-                <p>Be a part of our life-changing initiative in Kenya to provide clean water and sanitation to rural communities. In many parts of Kenya, access to clean water and proper sanitation facilities is scarce, which leads to the spread of diseases and infections. As a volunteer, you will be working with local communities to install water filtration systems that will provide access to clean water for drinking, cooking, and cleaning.
-                During your time in Kenya, you'll gain a deeper understanding of the challenges of providing basic needs in developing countries and the importance of sustainable development.  You'll also have the opportunity to immerse yourself in the local culture, visit nearby villages and wildlife parks, and connect with other volunteers from around the world.</p>
+                <button class="toggle-button">More Info</button>
+                <div class="more-info">
+                  <p>Be a part of our life-changing initiative in Kenya to provide clean water and sanitation to rural communities. In many parts of Kenya, access to clean water and proper sanitation facilities is scarce, which leads to the spread of diseases and infections. As a volunteer, you will be working with local communities to install water filtration systems that will provide access to clean water for drinking, cooking, and cleaning.
+                  During your time in Kenya, you'll gain a deeper understanding of the challenges of providing basic needs in developing countries and the importance of sustainable development.  You'll also have the opportunity to immerse yourself in the local culture, visit nearby villages and wildlife parks, and connect with other volunteers from around the world.</p>
+                </div>  
               </div>
           </div>
 
@@ -189,19 +195,38 @@
 
             <div class="card-content">
               <h4 class="card-title">India</h4>
-              <p>"Join our team in India and make a positive impact by providing education to underprivileged children. In many parts of India, children from disadvantaged backgrounds face significant barriers to education, including poverty, lack of resources, and limited access to quality schools. As a volunteer, you will work with experienced teachers and local organizations to provide educational support and mentorship to these children.
-              You'll have the opportunity to assist with classroom instruction, develop lesson plans, and create educational resources that can be used to support the ongoing development of the students. You'll also help to organize extracurricular activities that promote social and emotional learning, such as sports, arts, and music programs.</p>
+              <button class="toggle-button">More Info</button>
+              <div class="more-info">
+                <p>"Join our team in India and make a positive impact by providing education to underprivileged children. In many parts of India, children from disadvantaged backgrounds face significant barriers to education, including poverty, lack of resources, and limited access to quality schools. As a volunteer, you will work with experienced teachers and local organizations to provide educational support and mentorship to these children.
+                You'll have the opportunity to assist with classroom instruction, develop lesson plans, and create educational resources that can be used to support the ongoing development of the students. You'll also help to organize extracurricular activities that promote social and emotional learning, such as sports, arts, and music programs.</p>
+              </div>
             </div>
           </div>
 
-
+          <!-- 4th Card -->
+          <div class="card card-4">
+            <div class="card-container">
+              <img src="Images/Cards/thailand.jpg" alt="Thailand">
+            </div>
+          
+            <div class="card-content">
+              <h4 class="card-title">Thailand</h4>
+              <button class="toggle-button">More Info</button>
+              <div class="more-info">
+                <p>Volunteer in Thailand and contribute to social development projects that empower marginalized communities and promote sustainable practices. Engage in activities related to education, healthcare, cultural preservation, or community-based tourism.
+          
+                Work alongside local organizations, teachers, and community members to create positive change. Discover the rich cultural heritage of Thailand, explore its vibrant markets and temples, and form lasting connections with the warm-hearted Thai people.</p>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </section>
 
 
       <section class="section-3">
         <!-- Cards de los Voluntariados Ambientales -->
-        <div class="title">
+        <div class="title" id="environmental">
           <h2>Voluntariados</h2>
           <h1>Ambientales</h1>
         </div>
@@ -209,14 +234,17 @@
           <!-- 1st Card -->
           <div class="card card-1">
               <div class="card-container">
-              <img src="/Images/Cards/costa-rica.jpeg" alt="">
+                <img src="/Images/Cards/costa-rica.jpeg" alt="">
               </div>
 
               <div class="card-content">
-              <h4 class="card-title">Costa Rica</h4>
-              <p>Join our team in Costa Rica and immerse yourself in the beauty of one of the world's most biodiverse countries while making a difference in local communities. As a volunteer, you'll have the opportunity to work on a variety of projects that support sustainable development, conservation, and community empowerment.
+                <h4 class="card-title">Costa Rica</h4>
+                <button class="toggle-button">More Info</button>
+                <div class="more-info">
+                  <p>Join our team in Costa Rica and immerse yourself in the beauty of one of the world's most biodiverse countries while making a difference in local communities. As a volunteer, you'll have the opportunity to work on a variety of projects that support sustainable development, conservation, and community empowerment.
 
-              You may be involved in tasks such as reforestation efforts, sustainable agriculture initiatives, or wildlife conservation programs. You'll work alongside experienced professionals and community members who are passionate about protecting the natural beauty of Costa Rica while improving the livelihoods of those who call it home.</p>
+                  You may be involved in tasks such as reforestation efforts, sustainable agriculture initiatives, or wildlife conservation programs. You'll work alongside experienced professionals and community members who are passionate about protecting the natural beauty of Costa Rica while improving the livelihoods of those who call it home.</p>
+                </div>
               </div>
           </div>
 
@@ -228,24 +256,67 @@
 
               <div class="card-content">
                 <h4 class="card-title">Amazonas</h4>
-                <p>Embark on a unique volunteering journey to the Amazon rainforest and be part of the reforestation efforts in one of the world's most biodiverse regions. As a volunteer, you'll help to plant trees, collect data on wildlife populations, and learn about conservation practices that can help protect the Amazon's rich ecosystem.
+                <button class="toggle-button">More Info</button>
+                <div class="more-info">
+                  <p>Embark on a unique volunteering journey to the Amazon rainforest and be part of the reforestation efforts in one of the world's most biodiverse regions. As a volunteer, you'll help to plant trees, collect data on wildlife populations, and learn about conservation practices that can help protect the Amazon's rich ecosystem.
 
-                Beyond contributing to the conservation efforts, you'll also have the opportunity to engage with the local communities and learn from their culture and way of life. You may also participate in monitoring endangered species, implementing sustainable farming practices, and educating communities on the importance of conservation.</p>
+                  Beyond contributing to the conservation efforts, you'll also have the opportunity to engage with the local communities and learn from their culture and way of life. You may also participate in monitoring endangered species, implementing sustainable farming practices, and educating communities on the importance of conservation.</p>
+                </div>
               </div>
           </div>
 
           <!-- 3rd Card -->
           <div class="card card-3">
             <div class="card-container">
-            <img src="/Images/Cards/costa-rica.jpeg" alt="">
+            <img src="Images\Cards\guatemala.jpg" alt="">
             </div>
 
             <div class="card-content">
-            <h4 class="card-title">Guatemala</h4>
-            <p>Join our team in Costa Rica and immerse yourself in the beauty of one of the world's most biodiverse countries while making a difference in local communities. As a volunteer, you'll have the opportunity to work on a variety of projects that support sustainable development, conservation, and community empowerment.
+              <h4 class="card-title">Guatemala</h4>
+              <button class="toggle-button">More Info</button>
+              <div class="more-info">
+                <p>Join our team in Costa Rica and immerse yourself in the beauty of one of the world's most biodiverse countries while making a difference in local communities. As a volunteer, you'll have the opportunity to work on a variety of projects that support sustainable development, conservation, and community empowerment.
 
-            You may be involved in tasks such as reforestation efforts, sustainable agriculture initiatives, or wildlife conservation programs. You'll work alongside experienced professionals and community members who are passionate about protecting the natural beauty of Costa Rica while improving the livelihoods of those who call it home.</p>
+                You may be involved in tasks such as reforestation efforts, sustainable agriculture initiatives, or wildlife conservation programs. You'll work alongside experienced professionals and community members who are passionate about protecting the natural beauty of Costa Rica while improving the livelihoods of those who call it home.</p>
+              </div>
             </div>
+
+          </div>
+
+          <!-- 4th Card -->
+          <div class="card card-4">
+            <div class="card-container">
+              <img src="Images\Cards\iceland.jpg" alt="">
+            </div>
+          
+            <div class="card-content">
+              <h4 class="card-title">Iceland</h4>
+              <button class="toggle-button">More Info</button>
+              <div class="more-info">
+                <p>Experience the breathtaking beauty of Iceland while actively participating in environmental conservation projects. Join our team and contribute to initiatives such as reforestation, climate change research, and sustainable tourism practices.
+          
+                Assist in preserving Iceland's unique ecosystems, including its glaciers, geothermal areas, and vibrant wildlife. Engage with local communities and gain insights into the challenges and solutions for sustainable living in this extraordinary country.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5th Card -->
+          <div class="card card-5">
+            <div class="card-container">
+              <img src="Images\Cards\kenya.jpg" alt="Kenya">
+            </div>
+          
+            <div class="card-content">
+              <h4 class="card-title">Kenya</h4>
+              <button class="toggle-button">More Info</button>
+              <div class="more-info">
+                <p>Join our team in Kenya and experience the wonders of African wildlife and landscapes while contributing to environmental conservation efforts. As a volunteer, you'll have the opportunity to work on projects focused on wildlife protection, habitat restoration, and sustainable community development.
+          
+                Your tasks may include assisting in anti-poaching patrols, supporting local conservation initiatives, or participating in educational outreach programs. Immerse yourself in the rich cultural heritage of Kenya while making a positive impact on its natural heritage.</p>
+              </div>
+            </div>
+          </div>
+            
         </div>
       </section>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

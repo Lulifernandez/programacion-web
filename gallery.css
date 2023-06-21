@@ -183,6 +183,20 @@ h1 {
   display:none
 }
 
+/* TOGGLE BUTTON */
+
+.toggle-button {
+  background-color: #ddd;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.more-info {
+  display: none;
+}
+
+
 /* SAMPLE CARDS */
 
 .cards{
@@ -389,9 +403,6 @@ figcaption {
   transition: .1s;
 }
 
-/* .card-back .img-bg {
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 70%);
-} */
 
 /* hover state */
 .flip-card-container:hover .card-front .img-bg::before {
