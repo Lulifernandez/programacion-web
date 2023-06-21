@@ -1,7 +1,7 @@
-function mostrarMensaje() {
-    alert("funciona Javascript")
+// function mostrarMensaje() {
+//     alert("funciona Javascript")
     
-}
+// }
 
 
 
