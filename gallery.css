@@ -164,7 +164,7 @@ h1 {
 #search-button{
   background-color: white;
   height: fit-content;
-  margin: 5%;
+  margin: 5% auto;
   width: 45vw;
   padding: 5%;
   color:#45484E;
@@ -173,8 +173,6 @@ h1 {
   font-weight: 1000;
   border-radius: 20px;
   box-shadow:  10px 8px 20px #45484E;
-  display: flex;
-  flex-flow: row wrap;
 }
 .input-button{
   display:flex;
