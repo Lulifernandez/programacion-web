@@ -169,16 +169,6 @@ h1 {
   border-color: transparent;
 }
 
-#input-button2{
-  background-color:#FCD9AF;
-  color: #45484E;
-  padding:  20px ;
-  border-radius: 20px;
-  width: 40vw;
-  font-weight: bold;   
-  border-color: transparent;
-}
-
 .filter{
   display:none
 }

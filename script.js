@@ -1,14 +1,11 @@
 //<----------------Toggle Button---------------->
-// Obtener todos los botones de "More Info"
 const toggleButtons = document.querySelectorAll('.toggle-button');
 
-// Agregar un evento de escucha a cada botón
 toggleButtons.forEach(button => {
   button.addEventListener('click', () => {
-    // Obtener el elemento de detalles adicionales correspondiente
     const moreInfo = button.nextElementSibling;
 
-    // Alternar la visibilidad de los detalles adicionales
+    // Que se haga visible cuando aprieto more info
     if (moreInfo.style.display === 'none') {
       moreInfo.style.display = 'block';
     } else {
@@ -17,5 +14,19 @@ toggleButtons.forEach(button => {
   });
 });
 
+// <----------------Verificar form---------------->
 
-
+document.getElementById("send-button").addEventListener("click", function() {
+  const name = document.getElementById("name-form").value;
+  const email = document.getElementById("mail-form").value;
+  const message = document.getElementById("desc-form").value;
+  
+  if (name === "" || email === "" || message === "") {
+    alert("Please fill in all fields.");
+  } else {
+    alert("Your message has been sent.");
+    document.getElementById("name-form").value = "";
+    document.getElementById("mail-form").value = "";
+    document.getElementById("desc-form").value = "";
+  }
+});
