@@ -5,7 +5,6 @@ toggleButtons.forEach(button => {
   button.addEventListener('click', () => {
     const moreInfo = button.nextElementSibling;
 
-    // Que se haga visible cuando aprieto more info
     if (moreInfo.style.display === 'none') {
       moreInfo.style.display = 'block';
     } else {
@@ -30,3 +29,4 @@ document.getElementById("send-button").addEventListener("click", function() {
     document.getElementById("desc-form").value = "";
   }
 });
+
