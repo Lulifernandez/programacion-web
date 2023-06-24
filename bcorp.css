@@ -65,3 +65,19 @@
 .infoSection{
     margin: 10% 0 0 0;
 }
+
+.carousel {
+    overflow: hidden;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
